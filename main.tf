@@ -137,3 +137,7 @@ data "aws_availability_zones" "available" {}
 output "web-address" {
   value = "${aws_instance.web.public_dns}:8080"
 }
+
+resource "aws_s3_bucket" "bucket1" {
+  bucket = "my-demo-neeha-bucket-1907"
+}
