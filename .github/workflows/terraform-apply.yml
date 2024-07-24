@@ -6,10 +6,10 @@ on:
       - main
 
 env:
-  TF_CLOUD_ORGANIZATION: "TerraformCICDDemo"
+  TF_CLOUD_ORGANIZATION: "Neeha_Terraform_CICD"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "Terraform_CI_CD_Cloud"
-  CONFIG_DIRECTORY: "./"
+  TF_WORKSPACE: "Neeha_GitHub_Actions"
+  CONFIG_DIRECTORY: "./terraform/"
 
 jobs:
   terraform:
