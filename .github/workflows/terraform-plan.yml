@@ -4,9 +4,9 @@ on:
   pull_request:
 
 env:
-  TF_CLOUD_ORGANIZATION: "Neeha_Terraform_CICD"
+  TF_CLOUD_ORGANIZATION: "mohanrajdevarasu"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "Neeha_GitHub_Actions"
+  TF_WORKSPACE: "mohan-github-action"
   CONFIG_DIRECTORY: "./terraform/"
 
 jobs:
